@@ -1,7 +1,8 @@
 dockerfile-file_backup
 ======================
 
-This is a simple alpine container which copy the given file 
+This is a simple alpine container which embeds the `file_backup` script that
+copies the file to back up in a git repository and commits it when it changes.
 
 file_backup.sh is fetched directly from https://github.com/manoj23/file_backup.
 
