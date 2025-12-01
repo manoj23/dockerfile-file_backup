@@ -2,7 +2,7 @@
 
 set -e
 
-ALPINE_BUILDER_VERSION="3.20.3"
+ALPINE_BUILDER_VERSION="3.22"
 USER="manoj23"
 REPO="file_backup"
 DOCKERFILE_HASH=$(git rev-parse --short HEAD)
