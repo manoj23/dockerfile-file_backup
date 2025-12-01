@@ -1,5 +1,5 @@
 ARG ALPINE_VERSION
-FROM alpine:${ALPINE_VERSION}
+FROM alpine:${ALPINE_VERSION:-latest}
 ARG DOCKERFILE_HASH
 LABEL maintainer="Georges Savoundararadj <savoundg@gmail.com>"
 LABEL org.opencontainers.image.source=https://github.com/manoj23/dockerfile-file_backup/
